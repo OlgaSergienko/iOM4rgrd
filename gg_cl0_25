@@ -1,0 +1,11 @@
+# from Niki
+#~/ocean_model_grid_generator/ocean_grid_generator.py -f /work/ovs/iOM4/SP_025deg19r.nc  -r 4   --londp 90.0 --latdp -90.0 --south_cap_lat -70.  --exfracdp 0.  --south_cutoff_row 19 --plot --write_subgrid_files
+
+~/ocean_model_grid_generator/ocean_grid_generator.py -f SP_025deg.nc  -r 4   --londp 90.0 --latdp -90.0 --south_cap_lat -70.  --exfracdp 0.  --south_cutoff_row 21 --plot 
+
+# global 1/4 displaced pole
+#~/ocean_model_grid_generator/ocean_grid_generator.py -f 73E82S_025deg.nc  -r 4   --londp 73.0 --latdp -85.0 --south_cap_lat -70.  --exfracdp 0.  --south_cutoff_row 21 --plot
+
+#~/.local/bin/ocean_grid_generator.py -f sosc.nc  -r 4 --south_cutoff_row 10 --gridlist=sc,so --londp 67.0 --latdp -80. --south_cap_lat -70. --south_ocean_upper_lat -55. --exfracdp 0.0
+
+#~/ocean_model_grid_generator/ocean_grid_generator.py -f sosc.nc  -r 2 --south_cutoff_row 1 --gridlist=sc,so --write_subgrid_files --plot --gridlist=sc,so --londp 67.0 --latdp -85.85702261518855 --south_cap_lat -70. --south_ocean_upper_lat -55.  --exfracdp 0.
